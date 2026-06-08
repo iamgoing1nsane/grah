@@ -47,7 +47,8 @@ while True:
      if answer == morse[letter]:
          print("Correct!")
          continue
-    elif answer == "morse code" or answer == "its morse code":
+   
+     elif answer == "morse code" or answer == "its morse code":
          print("nice ka")
      
      elif answer == "help":
