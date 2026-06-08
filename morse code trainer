@@ -47,7 +47,14 @@ while True:
      if answer == morse[letter]:
          print("Correct!")
          continue
-    
+    elif answer == "morse code" or answer == "its morse code":
+         print("nice ka")
+     
+     elif answer == "help":
+          for letter, code in morse.items():
+             print(f"{letter}: {code}")
+          break
+         
      else:
          print(f"Wrong! Correct answer: {morse[letter]}")
          continue
