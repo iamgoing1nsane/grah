@@ -1,0 +1,44 @@
+##Morse code trainer
+import random
+
+morse = {
+    "A": ".-",
+    "B": "-...",
+    "C": "-.-.",
+    "D": "-..",
+    "E": ".",
+    "F": "..-.",
+    "G": "--.",
+    "H": "....",
+    "I": "..",
+    "J": ".---",
+    "K": "-.-",
+    "L": ".-..",
+    "M": "--",
+    "N": "-.",
+    "O": "---",
+    "P": ".--.",
+    "Q": "--.-",
+    "R": ".-.",
+    "S": "...",
+    "T": "-",
+    "U": "..-",
+    "V": "...-",
+    "W": ".--",
+    "X": "-..-",
+    "Y": "-.--",
+    "Z": "--.."
+}
+
+while True:
+     
+     letter = random.choice(list(morse.keys()))
+     answer = input(f"What is the Morse code for {letter}? ")
+
+     if answer == morse[letter]:
+         print("Correct!")
+         continue
+    
+     else:
+         print(f"Wrong! Correct answer: {morse[letter]}")
+         continue
