@@ -1,5 +1,14 @@
 ##Morse code trainer
 import random
+import time
+
+print("Sleepheads morse code trainer...")
+time.sleep(1)
+print("Version..")
+time.sleep(1)
+print("zero..(yes, actually.)")
+time.sleep(2)
+
 
 morse = {
     "A": ".-",
